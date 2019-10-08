@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>frescobaldi</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>Frescobaldi</name>
+  <summary>LilyPond Music Editor</summary>
+
+  <description>
+    <p>
+      Frescobaldi is an advanced text editor to edit LilyPond sheet music files.
+      It aims to be powerful, yet lightweight and easy to use.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Powerful text editor with syntax highlighting and automatic completion</li>
+      <li>Music view with advanced Point &amp; Click</li>
+      <li>Midi player to proof-listen LilyPond-generated MIDI files</li>
+      <li>Midi capturing to enter music</li>
+      <li>Powerful Score Wizard to quickly setup a music score</li>
+      <li>Snippet Manager to store and apply text snippets, templates or scripts</li>
+      <li>Use multiple versions of LilyPond, automatically selects the correct version</li>
+      <li>Built-in LilyPond documentation browser and built-in User Guide</li>
+      <li>Smart layout-control functions like coloring specific objects in the PDF</li>
+      <li>MusicXML, Midi and ABC import</li>
+      <li>Modern user interface with configurable colors, fonts and keyboard shortcuts</li>
+      <li>Translated into the following languages: Dutch, English, French, German, Italian, Czech, Russian, Spanish, Galician, Turkish, Polish, Brazillian Portugese and Ukrainian.</li>
+    </ul>
+    <p>
+      Frescobaldi is designed to run on all major operating systems (Linux, Mac OS X
+      and MS Windows). It is named after Girolamo Frescobaldi (1583-1643), an Italian
+      composer of keyboard music in the late Renaissance and early Baroque period.
+    </p>
+  </description>
+
+<launchable type="desktop-id">frescobaldi.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main editor view with PDF preview</caption>
+      <image>http://frescobaldi.org/images/frescobaldi1-en.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Magnifier glass</caption>
+      <image>http://frescobaldi.org/images/magnifier1-small-en.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Snippet manager and editor</caption>
+      <image>http://frescobaldi.org/images/snippet2-small-en.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">http://frescobaldi.org/</url>
+
+</component>
+

@@ -57,6 +57,7 @@ else:
     data_files = [
         ('share/icons/hicolor/scalable/apps', ['frescobaldi_app/icons/frescobaldi.svg']),
         ('share/applications', ['data/frescobaldi.desktop']),
+        ('share/metainfo', ['data/frescobaldi.metainfo.xml']),
         ('share/man/man1', ['frescobaldi.1']),
     ]
 
