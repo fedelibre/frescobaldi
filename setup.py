@@ -56,7 +56,7 @@ if sys.platform.startswith('win'):
 else:
     data_files = [
         ('share/icons/hicolor/scalable/apps', ['frescobaldi_app/icons/frescobaldi.svg']),
-        ('share/applications', ['frescobaldi.desktop']),
+        ('share/applications', ['data/frescobaldi.desktop']),
         ('share/man/man1', ['frescobaldi.1']),
     ]
 
