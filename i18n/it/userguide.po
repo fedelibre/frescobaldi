@@ -4,22 +4,22 @@
 #
 # .billyBoh <billyboh@gmail.com>, 2011, 2012.
 # Gianluca D'Orazio <gianluca.dorazio@gmail.com>, 2008, 2009, 2010, 2011, 2013, 2014.
-# Federico Bruni <fede@inventati.org>, 2014, 2015, 2016, 2017, 2018.
+# Federico Bruni <fede@inventati.org>, 2014-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Frescobaldi 3.0.0\n"
 "Report-Msgid-Bugs-To: info@frescobaldi.org\n"
 "POT-Creation-Date: 2019-11-08 12:03+0100\n"
-"PO-Revision-Date: 2018-08-28 16:51+0200\n"
+"PO-Revision-Date: 2019-11-26 07:01+0100\n"
 "Last-Translator: Federico Bruni <fede@inventati.org>\n"
-"Language-Team: Italiano <>\n"
+"Language-Team: Italian <gnome-it-list@gnome.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 3.34.0\n"
 
 #: ../frescobaldi_app/userguide/404.md:1
 msgid "Not Found"
@@ -552,6 +552,14 @@ msgid ""
 "impact of font settings on a variety of provided sample scores, custom files "
 "and the “current document“."
 msgstr ""
+"La finestra di dialogo \"Caratteri del documento\", accessibile da "
+"{menu_dialog}, fornisce degli strumenti per vedere i tipi di carattere "
+"testuali e musicali disponibili e gestire la loro installazione in una certa "
+"istanza di LilyPond. Contiene un generatore configurabile del comando di "
+"impostazione dei caratteri da usare nei documenti LilyPond e fornisce "
+"un'anteprima dotata di cache intelligente per vedere e confrontare l'impatto "
+"delle impostazioni di caratteri su varie partiture di esempio incluse, file "
+"personalizzati e sul \"documento corrente\"."
 
 #: ../frescobaldi_app/userguide/documentfonts.md:10
 msgid ""
@@ -559,6 +567,9 @@ msgid ""
 "for a compilation (see {page_lilyversion}). All fonts are specific to that "
 "LilyPond instance."
 msgstr ""
+"La finestra di dialogo è vincolata alla specifica installazione LilyPond da "
+"usare per una compilazione (vedi {page_lilyversion}). Tutti i tipi di "
+"carattere sono specifici di quell'istanza di LilyPond."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts.md:14
@@ -570,6 +581,13 @@ msgid ""
 "copied to the system clipboard or inserted in the current document "
 "(overwriting a selection if present)."
 msgstr ""
+"La finestra di dialogo è suddivisa in due aree, un gruppo di schede per la "
+"navigazione e la configurazione a sinistra e un pannello di anteprima a "
+"destra. Nelle schede a sinistra i tipi di carattere testuali e musicali "
+"possono essere scorsi e selezionati per l'uso in un comando di impostazione "
+"dei caratteri. Facendo clic sui pulsanti \"Copia\" o \"Usa\", il comando "
+"generato può essere copiato negli appunti di sistema o inserito nel "
+"documento corrente (sovrascrivendo una selezione se presente)."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts.md:21
@@ -578,6 +596,10 @@ msgid ""
 "clicking on the `Restore` button at the bottom of the dialog the selection "
 "can be reset to LilyPond's default text and music fonts."
 msgstr ""
+"I tipi di carattere selezionati vengono ricordati tra una sessione e l'altra "
+"di Frescobaldi, ma facendo clic sul pulsante \"Ripristina\" in fondo alla "
+"finestra la selezione può essere reimpostata sui tipi di carattere testuali "
+"e musicali predefiniti di LilyPond."
 
 #: ../frescobaldi_app/userguide/documentfonts.md:27
 msgid ""
@@ -585,6 +607,10 @@ msgid ""
 "available to the current LilyPond installation. It also allows to select "
 "text fonts for use in the score document."
 msgstr ""
+"La scheda {page_textfonts} fornisce una vista ad albero, con ricerca, di "
+"tutti i tipi di carattere testuali disponibili nell'installazione corrente "
+"di LilyPond. Permette anche di selezionare i tipi di carattere testuale da "
+"usare nella partitura."
 
 #: ../frescobaldi_app/userguide/documentfonts.md:33
 msgid ""
@@ -592,23 +618,29 @@ msgid ""
 "number of controls to manage font installation in the current LilyPond "
 "installation."
 msgstr ""
+"La scheda {page_musicfonts} fornisce un elenco dei tipi di carattere "
+"musicali disponibili e alcuni controlli per gestire l'installazione dei "
+"caratteri nell'installazione corrente di LilyPond."
 
 #: ../frescobaldi_app/userguide/documentfonts.md:38
 msgid ""
 "The tab {page_fontcommand} provides controls to configure the way how the "
 "font-setting command is generated."
 msgstr ""
+"La scheda {page_fontcommand} fornisce controlli per configurare il modo in "
+"cui viene generato il comando di impostazione dei caratteri."
 
 #: ../frescobaldi_app/userguide/documentfonts.md:43
 msgid ""
 "On the right side of the dialog a large area is reserved for a (cached) "
 "preview of various scores using all combinations"
 msgstr ""
+"Sul lato destro della finestra di dialogo un ampio spazio viene riservato "
+"all'anteprima (con cache) di varie partiture che usano tutte le combinazioni"
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:1
-#, fuzzy
 msgid "Font Settings Command"
-msgstr "Comando di stampa:"
+msgstr "Comando di impostazione dei caratteri"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:3
@@ -621,10 +653,18 @@ msgid ""
 "copied to the clipboard or inserted in the current document upon clicking on "
 "the respective buttons."
 msgstr ""
+"In LilyPond i tipi di carattere musicali e testuali vengono selezionati "
+"attraverso specifici comandi e nella scheda *Comando dei caratteri* si può "
+"configurare il modo in cui tale comando viene generato. Le scelte fatte in "
+"questa scheda vengono ricordate nelle sessioni di Frescobaldi. Ogni scelta "
+"modifica immediatamente l'anteprima del comando e attiva un aggiornamento "
+"dell'anteprima spartito. Facendo clic sui rispettivi pulsanti il contenuto "
+"dell'anteprima comando verrà copiato negli appunti o inserito nel documento "
+"corrente."
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:11
 msgid "Considered Text Fonts"
-msgstr ""
+msgstr "Caratteri testuali considerati"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:13
@@ -633,10 +673,14 @@ msgid ""
 "considered in the font-settings command. For each family that is *not* "
 "checked LilyPond will use the default fonts."
 msgstr ""
+"Tre caselle di spunta decidono se considerare i tipi di carattere con "
+"grazie, senza grazie e a spaziatura fissa nel comando di impostazione dei "
+"caratteri. Per ciascuna famiglia che *non* ha una spunta LilyPond userà i "
+"tipi di carattere predefiniti."
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:17
 msgid "Command generation style"
-msgstr ""
+msgstr "Stile di generazione del comando"
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:19
 msgid ""
@@ -644,10 +688,13 @@ msgid ""
 "can be selected by choosing from the different tabs in the lower part of the "
 "dialog."
 msgstr ""
+"Frescobaldi può applicare diversi stili di generazione dei comandi dei "
+"caratteri, scegliendo tra le varie schede della parte inferiore della "
+"finestra di dialogo."
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:22
 msgid "Traditional Style"
-msgstr ""
+msgstr "Stile tradizionale"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:24
@@ -657,6 +704,10 @@ msgid ""
 "three text font families is is possible to selectively set the music font as "
 "well."
 msgstr ""
+"Nello stile tradizionale di impostazione dei caratteri in un blocco *"
+"\\paper*, può essere impostato qualsiasi tipo di carattere, incluso quello "
+"*musicale*. Dunque oltre alle tre famiglie di caratteri si può impostare "
+"selettivamente anche il tipo di carattere musicale."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:28
@@ -664,10 +715,12 @@ msgid ""
 "It is possible to generate a complete *\\paper* block or not, depending on "
 "where the generated command should be used."
 msgstr ""
+"Si può generare un blocco *\\paper* completo oppure no, a seconda di dove "
+"debba essere usato il comando generato."
 
 #: ../frescobaldi_app/userguide/documentfonts_command.md:31
 msgid "openLilyLib Style"
-msgstr ""
+msgstr "Stile openLilyLib"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:33
@@ -677,6 +730,12 @@ msgid ""
 "available too. With the openLilyLib approach notation fonts are *always* "
 "loaded, therefore the “music” font selection can not be unchecked."
 msgstr ""
+"Il pacchetto *notation-fonts* di {openlilylib} contiene funzionalità "
+"avanzate per il caricamento di tipi di carattere della notazione (insieme ai "
+"tipi di carattere testuale), che anche Frescobaldi rende disponibili. Con "
+"l'approccio di openLilyLib i caratteri della notazione sono *sempre* "
+"caricati, dunque la casella del carattere \"musicale\" non può essere non "
+"selezionata."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:38
@@ -684,6 +743,8 @@ msgid ""
 "*NOTE:* In order for this to work the two openLilyLib packages `oll-core` "
 "and `notation-fonts` have to be installed and available."
 msgstr ""
+"*NOTA:* per il corretto funzionamento i due pacchetti openLilyLib \"oll-core"
+"\" e \"notation-fonts\" devono essere installati e disponibili."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:41
@@ -691,6 +752,8 @@ msgid ""
 "*Load openLilyLib*: This should be unchecked if *oll-core* is already loaded/"
 "included elsewhere in the score files"
 msgstr ""
+"*Carica openLilyLib*: questa casella deve essere non selezionata se *oll-"
+"core* è già caricato/incluso da qualche parte nei file della partitura"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:44
@@ -698,6 +761,8 @@ msgid ""
 "*Load notation-fonts package*: The same consideration regarding the "
 "*notation-fonts* package."
 msgstr ""
+"*Carica il pacchetto notation-fonts*: la stessa considerazione deve essere "
+"fatta per il pacchetto *notation-fonts*."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:46
@@ -708,6 +773,12 @@ msgid ""
 "articulations. If this option is checked font extensions are loaded if "
 "available (otherwise nothing will happen)."
 msgstr ""
+"*Carica le estensioni dei caratteri:* alcuni tipi di carattere includono "
+"ulteriori glifi oltre a quelli forniti da LilyPond. openLilyLib contiene dei "
+"fogli di stile che hanno funzioni di supporto che rendono le funzionalità "
+"disponibili come comandi o, per esempio, articolazioni. Se questa opzione è "
+"selezionata, le estensioni dei caratteri sono caricate se disponibili "
+"(altrimenti non succede niente)."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_command.md:51
@@ -721,6 +792,16 @@ msgid ""
 "“include” strategy) or to provide a custom stylesheet, which has to be the "
 "name of a file that LilyPond can find."
 msgstr ""
+"*Fogli di stile del carattere:* openLilyLib fornisce fogli di stile "
+"predefiniti per ogni tipo di carattere supportato, regolando l'aspetto "
+"visivo (per esempio, lo spessore della linea di vari elementi della "
+"partitura) per adattarsi alle caratteristiche  di un certo carattere. Per "
+"impostazione predefinita, questi fogli vengono caricati automaticamente dal "
+"comando *\\useNotationFont*. Tuttavia in alcuni casi potrebbe essere "
+"necessario *non* usare il foglio di stile predefinito (per esempio, per una "
+"migliore integrazione con la strategia di inclusione del progetto) oppure "
+"fornire un foglio di stile personalizzato, che deve avere il nome di un file "
+"che LilyPond può trovare."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:3
@@ -735,6 +816,18 @@ msgid ""
 "package), Frescobaldi can currently not perform this task. Please refer to "
 "{notationfontswiki} for more information on LilyPond's music font handling."
 msgstr ""
+"LilyPond è in grado di usare nativamente tipi di carattere della notazione "
+"alternativi a partire dalla versione \"2.19.12\", mentre la versione "
+"\"2.18.2\" può essere corretta con poco sforzo per avere la stessa "
+"funzionalità. Tuttavia i caratteri della notazione devono essere disponibili "
+"direttamente in ciascuna installazione di LilyPond. La finestra di dialogo "
+"*Caratteri del documento* può gestire l'installazione dei caratteri musicali "
+"per ciascuna istanza di LilyPond. *NOTA:* Se LilyPond (non Frescobaldi) è "
+"installato in un percorso che non è scrivibile da Frescobaldi (tipicamente "
+"quando è installato per tutti gli utenti o da un pacchetto di una "
+"distribuzione Linux), attualmente Frescobaldi non può eseguire questo "
+"compito. Fare riferimento a {notationfontswiki} per maggiori informazioni "
+"sulla gestione dei caratteri musicali da parte di LilyPond."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:13
 msgid ""
@@ -742,10 +835,14 @@ msgid ""
 "it is recommended to also visit {mtf}, an online store with a collection of "
 "extraordinary non-free music fonts."
 msgstr ""
+"Tipi di carattere della notazione disponibili gratuitamente possono essere "
+"scaricati da {notationfonts}, ma si consiglia di visitare anche {mtf}, un "
+"negozio online che ha una raccolta di straordinari tipi di carattere "
+"musicale non liberi/non gratuiti."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:17
 msgid "Browsing Music Fonts"
-msgstr ""
+msgstr "Esplorare i caratteri musicali"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:19
@@ -758,6 +855,15 @@ msgid ""
 "font but several don't, and for these the default fallback is LilyPond's own "
 "*Emmentaler* font."
 msgstr ""
+"L'area principale della scheda *Caratteri musicali* è un elenco di tutti i "
+"tipi di carattere musicale trovati nell'installazione corrente di LilyPond. "
+"Se non è installato alcun carattere musicale alternativo nell'istanza "
+"corrente di LilyPond, almeno *Emmentaler* deve essere presente nell'elenco. "
+"Per ciascun tipo di carattere le caselle indicano se i file del carattere "
+"sono disponibili nei formati OTF, SVG e WOFF. La maggior parte dei tipi di "
+"carattere comprende un tipo specifico per la parentesi graffa; per quelli "
+"che non ce l'hanno, il ripiego predefinito è il tipo *Emmentaler* di "
+"LilyPond."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:26
@@ -766,22 +872,26 @@ msgid ""
 "font if available) as the current music font and trigger the {preview} to be "
 "updated."
 msgstr ""
+"Selezionando una riga dell'elenco verrà selezionato quel tipo di carattere "
+"(e il suo carattere *-brace* per la graffa, se disponibile) come carattere "
+"musicale corrente e si attiverà la {preview} da aggiornare."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:30
-#, fuzzy
 msgid "Managing Music Fonts"
-msgstr "Gestione dei file"
+msgstr "Gestione dei caratteri musicali"
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:32
 msgid ""
 "Above the font list is a row with buttons to manage music font installation "
 "in the current LilyPond instance."
 msgstr ""
+"Sopra all'elenco dei tipi di carattere c'è una riga con pulsanti per gestire "
+"l'installazione dei tipi di carattere musicale nell'istanza corrente di "
+"LilyPond."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:35
-#, fuzzy
 msgid "Local Font Repository"
-msgstr "Vai alla posizione successiva"
+msgstr "Repository locale dei tipi di carattere"
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:37
 msgid ""
@@ -791,11 +901,16 @@ msgid ""
 "is to download or clone the font repository from Github ({notationfonts}) "
 "and save it in this location."
 msgstr ""
+"Se una directory viene resa nota come repository locale dei caratteri "
+"musicali (vedi {paths}), il suo contenuto può essere facilmente usato come "
+"sorgente per l'installazione di caratteri in un qualsiasi numero di istanze "
+"di LilyPond. Il modo più semplice per far uso di ciò è scaricare o clonare "
+"il repository di Github dei tipi di carattere ({notationfonts}) e salvarlo "
+"in questa posizione."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:43
-#, fuzzy
 msgid "Installing Music Fonts"
-msgstr "Stampa della musica"
+msgstr "Installazione dei caratteri musicali"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:45
@@ -806,6 +921,11 @@ msgid ""
 "is not writable for Frescobaldi these functions will fail (without doing any "
 "damage)."
 msgstr ""
+"Frescobaldi installa i tipi di carattere musicale in una certa istanza di "
+"LilyPond creando dei *collegamenti simbolici* tra una directory sorgente e "
+"la directory dei tipi di carattere dell'installazione di LilyPond. *NOTA:* "
+"se LilyPond è installato in una posizione non scrivibile da Frescobaldi, "
+"queste funzioni non andranno a buon fine (senza fare alcun danno)."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:51
@@ -817,6 +937,13 @@ msgid ""
 "makes sure that all installed LilyPond versions can be expected to have all "
 "music fonts available."
 msgstr ""
+"Se è definito un repository locale dei tipi di carattere, tutti i tipi di "
+"carattere di quel repository possono essere aggiunti all'installazione "
+"corrente di LilyPond facendo clic sul pulsante *Installa (repository)*. Se "
+"la casella di selezione corrispondente nelle Preferenze è selezionata, ciò "
+"verrà fatto ad *ogni* avvio della finestra di dialogo, il che garantisce che "
+"tutte le versioni di LilyPond installate abbiano a disposizione tutti i tipi "
+"di carattere musicale disponibili."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:58
@@ -827,10 +954,16 @@ msgid ""
 "the original files have to remain in the location where they were at the "
 "time of installation because otherwise the symbolic link would break."
 msgstr ""
+"Facendo clic sul pulsante *Installa...* si aprirà una finestra di dialogo di "
+"scelta della directory e la directory selezionata verrà cercata "
+"ricorsivamente, installando tutti i tipi di carattere trovati. Ciò può "
+"essere fatto anche con tipi di carattere musicali scaricati casualmente. I "
+"file originali devono rimanere nella posizione in cui erano al momento "
+"dell'installazione, altrimenti i collegamenti simbolici non funzioneranno."
 
 #: ../frescobaldi_app/userguide/documentfonts_music.md:64
 msgid "Removing Music Fonts"
-msgstr ""
+msgstr "Eliminazione dei caratteri musicali"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_music.md:66
@@ -842,11 +975,18 @@ msgid ""
 "aborts with a message box in order to avoid lasting damage. Note that this "
 "is always true for the *Emmentaler* font that ships with LilyPond itself."
 msgstr ""
+"Il pulsante *Elimina* cerca di rimuovere il carattere musicale attualmente "
+"selezionato dall'installazione di LilyPond cancellando il collegamento "
+"simbolico dalla directory di installazione di LilyPond. Se i file dei "
+"caratteri sono veri e propri file invece di collegamenti simbolici (perché "
+"il tipo di carattere è stato installato esternamente), l'eliminazione si "
+"interrompe con un messaggio in un riquadro per evitare un danno "
+"irreparabile. Ciò è sempre vero per il tipo di carattere *Emmentaler* "
+"incluso in LilyPond."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:1
-#, fuzzy
 msgid "Document Fonts Preview"
-msgstr "Caratteri del documento..."
+msgstr "Anteprima caratteri del documento"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:3
@@ -859,10 +999,18 @@ msgid ""
 "where possible. See the section at the bottom of this page for details about "
 "the caching strategy."
 msgstr ""
+"Il lato destro della finestra di dialogo *Caratteri del documento* fornisce "
+"un pannello di anteprima per vedere l'effetto del tipo di carattere "
+"selezionato nel contesto reale della partitura. Ogni volta che viene fatta "
+"una scelta in una delle schede a sinistra (modifica di un tipo di carattere "
+"o delle impostazioni di generazione del comando), l'anteprima viene "
+"aggiornata. Frescobaldi salva i risultati nella cache per consentire un "
+"passaggio immediato tra le versioni, quando è possibile. Leggere la sezione "
+"in fondo a questa pagina per i dettagli sulla strategia di cache."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:10
 msgid "Example Source"
-msgstr ""
+msgstr "Sorgente dell'esempio"
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:12
 msgid ""
@@ -870,11 +1018,13 @@ msgid ""
 "examples, the “current document“, and arbitrary custom files, each with "
 "their own considerations."
 msgstr ""
+"Ci sono tre principali sorgenti per la partitura da visualizzare "
+"nell'anteprima: gli esempi predefiniti inclusi, il \"documento corrente\" e "
+"i file personalizzati, ciascuna con le proprie caratteristiche."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:16
-#, fuzzy
 msgid "Default Examples"
-msgstr "Stili predefeniti"
+msgstr "Esempi predefeniti"
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:18
 msgid ""
@@ -884,11 +1034,15 @@ msgid ""
 "that shows a representative selection of available glyphs as a traditional "
 "specimen sheet."
 msgstr ""
+"Viene fornita una selezione di esempi per illustrare una gamma di tipici "
+"casi d'uso della notazione. Sono stati scelti e adattati per mostrare l'uso "
+"dei tipi di carattere in brevi esempi. Di particolare interesse è l'esempio "
+"\"Glifi\", che illustra una selezione rappresentativa dei glifi disponibili "
+"nella forma di un foglio specimen tradizionale."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:24
-#, fuzzy
 msgid "Custom Files"
-msgstr "Includi un file personalizzato"
+msgstr "File personalizzati"
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:26
 msgid ""
@@ -896,6 +1050,9 @@ msgid ""
 "choices in the context of a real-world score, e.g. the one for which the "
 "fonts are actually selected."
 msgstr ""
+"È possibile scegliere un file personalizzato per vedere in anteprima gli "
+"effetti delle scelte dei tipi di carattere nel contesto di una partitura "
+"reale, per esempio quella per la quale sono stati scelti i tipi di carattere."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:30
@@ -910,6 +1067,17 @@ msgid ""
 "This may be especially confusing if the document itself specifies "
 "alternative fonts which will then be used."
 msgstr ""
+"*NOTA:* per una limitazione di LilyPond che non può essere pienamente "
+"gestita da Frescobaldi, l'anteprima dei caratteri non funziona adeguatamente "
+"quando l'esempio compilato contiene un blocco *\\paper* (escludendo quindi "
+"molti file). Ciò è dovuto al fatto che quel blocco *\\paper* verrà letto "
+"*dopo* il comando di impostazione dei caratteri inserito da Frescobaldi, "
+"andando quindi a reimpostare le impostazioni interne dei caratteri in "
+"LilyPond. Se il file o uno qualsiasi dei suoi file inclusi contiene un blcco "
+"*\\paper* la compilazione funzionerà ma le selezioni di tipi di carattere "
+"non verranno applicate. Ciò può causare ancora più confusione se il "
+"documento stesso specifica tipi di carattere alternativi che verranno quindi "
+"usati."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:43
 msgid ""
@@ -917,17 +1085,20 @@ msgid ""
 "that would be compiled by Frescobaldi's compilation commands). Note that "
 "this may or may not complete successfully, resulting in an empty preview."
 msgstr ""
+"Questa selezione compilerà  il documento attualmente aperto (o il documento "
+"che sarebbe compilato dai comandi di compilazione di Frescobaldi). Questa  "
+"operazione potrebbe non completarsi con successo, risultando in un'anteprima "
+"vuota."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:47
 msgid ""
 "The considerations about a *\\paper* block outlined above apply here as well."
-msgstr ""
+msgstr "Le considerazioni sul blocco *\\paper* fatte prima valgono anche qui."
 
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:49
-#, fuzzy
 msgid "Preview Caching"
-msgstr "Selezione anteprima"
+msgstr "Cache dell'anteprima"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:51
@@ -939,6 +1110,14 @@ msgid ""
 "cached in a temporary directory which is deleted when Frescobaldi is closed, "
 "and they have to be recreated in each new Frescobaldi session."
 msgstr ""
+"Per ottimizzare l'esperienza utente quando si confrontano le scelte dei tipi "
+"di carattere, Frescobaldi salva nella memoria cache le anteprime compilate. "
+"Vengono prodotti file PDF per *tutte* le combinazioni di caratteri "
+"selezionati e opzioni di configurazione, e anche per ciascuna versione "
+"modificata dei file di input. Per impostazione predefinita dunque i file "
+"sono memorizzati in una directory temporanea che viene eliminata alla "
+"chiusura di Frescobaldi; per ogni nuova sessione di Frescobaldi dovranno "
+"essere ricreati."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_preview.md:58
@@ -948,10 +1127,15 @@ msgid ""
 "examples are cached persistently and will be displayed instantly across "
 "multiple Frescobaldi sessions."
 msgstr ""
+"Tuttavia se l'opzione \"Cache delle anteprime dei caratteri musicali\" in "
+"{paths} punta a una directory persistente e scrivibile dall'utente le "
+"elaborazioni degli esempi *predefiniti inclusi* vengono memorizzate "
+"persistentemente e verranno visualizzate istantaneamente anche tra "
+"molteplici sessioni di Frescobaldi."
 
 #: ../frescobaldi_app/userguide/documentfonts_text.md:3
 msgid "Browsing Text Fonts"
-msgstr ""
+msgstr "Esplorare i caratteri testuali"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:5
@@ -962,6 +1146,12 @@ msgid ""
 "eventually one or mulitple weights, for which a short sample text is "
 "displayed."
 msgstr ""
+"La scheda \"Tipi di carattere testuali\" crea un elenco di tutti i tipi di "
+"carattere testuali disponibili che sono disponibili a LilyPond (che potrebbe "
+"essere diverso dai tipi di carattere visti da altri programmi). Ogni tipo di "
+"carattere può includere o meno delle sottofamiglie (come *Condensed*, "
+"*Display*, etc.) e uno o più pesi/spessori, per i quali viene mostrato un "
+"breve testo di esempio."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:10
@@ -971,6 +1161,10 @@ msgid ""
 "possible that the tree view is initially empty until that process has "
 "finished."
 msgstr ""
+"Questo elenco viene creato eseguendo LilyPond con l'opzione da linea di "
+"comando `-d-show-available-fonts`, che potrebbe richiedere del tempo. È "
+"possibile che la vista ad albero sia vuota inizialmente finché quel processo "
+"non è completato."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:14
@@ -982,16 +1176,23 @@ msgid ""
 "Libertine`. Filter expressions support regular expressions, of which "
 "particularly the “border” characters are of interest:"
 msgstr ""
+"Sotto la vista ad albero c'è un campo di inserimento dove si può digitare un "
+"espressione filtro che filtri in modo incrementale l'elenco per individuare "
+"velocemente i tipi di carattere. La ricerca è sensibile alle maiuscole e nel "
+"comportamento predefinito le stringhe possono trovarsi ovunque nel nome del "
+"tipo di carattere: il filtro `lib` mostrerà sia `Liberation` che `Linux "
+"Libertine`. Le espressioni filtro supportano le espressioni regolari, tra "
+"cui di particolare interesse ci sono i caratteri di \"confine\":"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:21
 msgid "*^*: Beginning of string: *^Lib* will now hide *Linux Libertine*"
-msgstr ""
+msgstr "*^*: Inizio stringa: *^Lib* ora non mostrerà *Linux Libertine*"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:22
 msgid "*$*: End of string"
-msgstr ""
+msgstr "*$*: Fine stringa"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:23
@@ -999,11 +1200,12 @@ msgid ""
 "*\\b*: word boundaries: *tu* will show *Century Schoolbook* and *Ubuntu "
 "Mono* while *tu\\b* will suppress the *Century*"
 msgstr ""
+"*\\b*: confini parola: *tu* mostrerà *Century Schoolbook* e *Ubuntu Mono* "
+"mentre *tu\\b* nasconderà *Century*"
 
 #: ../frescobaldi_app/userguide/documentfonts_text.md:26
-#, fuzzy
 msgid "Selecting Text Fonts"
-msgstr "Selezione (testo)"
+msgstr "Selezione dei tipi di carattere testuali"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:28
@@ -1013,10 +1215,15 @@ msgid ""
 "items will select the currently selected font for the corresponding font "
 "family and trigger the {preview} to be updated."
 msgstr ""
+"Un menu contestuale nella vista ad albero mostra i tre tipi di carattere "
+"attualmente selezionati come caratteri *con grazie*, *senza grazie* e **. "
+"Facendo clic su uno dei tre elementi del menù verrà selezionato il tipo di "
+"carattere selezionato per la famiglia caratteri corrispondente e verrà "
+"lanciata la {preview} da aggiornare."
 
 #: ../frescobaldi_app/userguide/documentfonts_text.md:33
 msgid "Miscellaneous Font Information"
-msgstr ""
+msgstr "Informazioni vari sui tipi di carattere"
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/documentfonts_text.md:35
@@ -1026,6 +1233,10 @@ msgid ""
 "LilyPond installation and don't necessarily have to match the desktop "
 "environment's data."
 msgstr ""
+"L'ultima scheda elenca alcune informazioni ulteriori sul sistema dei tipi di "
+"carattere, recuperato dalla libreria *fontconfig*. Anche queste si "
+"riferiscono all'installazione corrente di LilyPond e non devono "
+"corrispondere necessariamente con i dati dell'ambiente desktop."
 
 #: ../frescobaldi_app/userguide/docvars.md:1
 msgid "Document Variables"
@@ -1778,9 +1989,8 @@ msgid "Exporting files"
 msgstr "Esportazione file"
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:1
-#, fuzzy
 msgid "Configuring Extensions"
-msgstr "Configurazione della vista di contorno"
+msgstr "Configurazione delle estensioni"
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:3
 msgid ""
@@ -1788,6 +1998,10 @@ msgid ""
 "extensions, globally and per extension. Note that most changes done here "
 "require a restart of Frescobaldi to take effect."
 msgstr ""
+"Il menù {menu_preferences_extensions} fornisce un'interfaccia per "
+"configurare le estensioni, globalmente e per estensione. La maggior parte "
+"delle modifiche fatte qui, per avere effetto, richiede un riavvio di "
+"Frescobaldi."
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:9
 msgid ""
@@ -1795,6 +2009,9 @@ msgid ""
 "checked only the extensions' meta information is accessed and no extension "
 "code loaded."
 msgstr ""
+"L'uso delle estensioni può essere disattivato globalmente. Quando questa "
+"casella non è selezionata, vengono recuperati solo i metadati delle "
+"estensioni ma non viene caricato il codice di alcuna estensione."
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:12
 msgid ""
@@ -1803,6 +2020,10 @@ msgid ""
 "directory should do no harm as only valid and functional extensions are "
 "loaded."
 msgstr ""
+"Impostare il percorso a una directory di base comune per le estensioni è il "
+"passo più importante per far funzionare le estensioni. Tuttavia la selezione "
+"di una qualsiasi directory esistente non dovrebbe creare problemi dato che "
+"solo le estensioni valide e funzionanti vengono caricate."
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:18
 msgid ""
@@ -1810,6 +2031,9 @@ msgid ""
 "whether they are loaded or not. Expanding an entry displays a list with "
 "useful meta information on the extension."
 msgstr ""
+"La vista ad albero elenca tutte le estensioni installate (ovvero, trovate), "
+"che siano caricate o meno. Espandendo un elemento si vede un elenco con "
+"utili metadati relativi all'estensione."
 
 #: ../frescobaldi_app/userguide/ext_configuration.md:22
 msgid ""
@@ -2208,7 +2432,6 @@ msgstr ""
 "2009 fu rilasciata la versione 1.0.0 e a Natale 2010  la versione 1.2.0."
 
 #: ../frescobaldi_app/userguide/history.md:13
-#, fuzzy
 msgid ""
 "At that time it was decided to move away from the KDE4 libraries and just "
 "use Python and Qt4 which are easily available on all major computing "
@@ -2217,8 +2440,8 @@ msgid ""
 msgstr ""
 "A quel punto fu deciso di non servirsi più delle librerie KDE4 ma soltanto "
 "di Python e delle librerie Qt4, entrambi facilmente disponibili per tutte le "
-"maggiori piattaforme. Frescobaldi 2.0 è una completa riscrittura da zero. La "
-"sua data di rilascio è prevista per Natale 2011."
+"maggiori piattaforme. Frescobaldi 2.0 è una completa riscrittura da zero ed "
+"è stato rilasciato nel Natale 2011."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/history.md:18
@@ -2228,6 +2451,10 @@ msgid ""
 "more developers joined initial author and core developer Wilbert Berendsen "
 "to work on Frescobaldi."
 msgstr ""
+"Tra il 2011 e il 2017 *Frescobaldi 2* ha avuto molti rilasci, che hanno "
+"portato molte nuove funzionalità e miglioramenti. In questi anni altri "
+"sviluppatori si sono uniti all'autore iniziale e sviluppatore principale "
+"Wilbert Berendsen per lavorare su Frescobaldi."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/history.md:23
@@ -2236,6 +2463,9 @@ msgid ""
 "brought more stability and durability, and better multilingual support. As a "
 "result, *Frescobaldi 3* was released in Feburary 2017."
 msgstr ""
+"Dopo un intenso lavoro Frescobaldi è stato migrato a Python3 e Qt5, che "
+"hanno portato maggiore stabilità e durabilità e un miglior supporto "
+"multilingue. *Frescobaldi 3* è stato quindi rilasciato nel febbraio 2017."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/history.md:27
@@ -2243,6 +2473,8 @@ msgid ""
 "In 2017, Frescobaldi was accepted in the *Google Summer Of Code* project, "
 "where a number of students contributed significantly."
 msgstr ""
+"Nel 2017 Frescobaldi è stato accettato nel progetto *Google Summer Of Code*, "
+"che ha portato il contributo significativo di vari studenti."
 
 #. NOTE: markdown formatting
 #: ../frescobaldi_app/userguide/history.md:30
@@ -2251,6 +2483,9 @@ msgid ""
 "`frescobaldi` organisation on GitHub, reflecting that Frescobaldi now really "
 "is a community-supported Free Software project."
 msgstr ""
+"Nel 2019 Frescobaldi e alcune librerie di supporto sono state spostate "
+"nell'organizzazione \"frescobaldi\" in Github, rispecchiando il fatto che "
+"Frescobaldi è ora un progetto di Software Libero supportato da una comunità."
 
 #: ../frescobaldi_app/userguide/import.md:1
 msgid "Importing files"
@@ -3283,6 +3518,8 @@ msgid ""
 "List and (partially) configure installed extensions. See {extending} and "
 "especially {configure}."
 msgstr ""
+"Elenca e configura (parzialmente) le estensioni installate. Vedi {extending} "
+"e soprattutto {configure}."
 
 #: ../frescobaldi_app/userguide/prefs_fontscolors.md:3
 msgid ""
@@ -4466,7 +4703,7 @@ msgid ""
 "type in the search entry to select the snippet. Pressing the Return key will "
 "then apply the snippet to the text editor and hide the snippets manager."
 msgstr ""
-"Si possono cercare i frammenti sfogliando la lista o inserendo delle parole "
+"Si possono cercare i frammenti scorrendo la lista o inserendo delle parole "
 "nella ricerca. I frammenti possono anche avere delle scorciatoie da "
 "tastiera. Alcuni frammenti hanno un mezzo mnemonico speciale (un nome breve) "
 "che si può inserire nella ricerca per selezionare il frammento. Premendo "
