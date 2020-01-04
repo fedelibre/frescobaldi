@@ -1,6 +1,5 @@
 i18n.gettext(meson.project_name(),
   args: [
-    '--language=python',
     '--from-code=UTF-8',
     '--package-name=Frescobaldi',
     '--package-version=' + meson.project_version(),
