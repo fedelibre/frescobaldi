@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frescobaldi 3.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/frescobaldi/frescobaldi/issues/new\n"
-"POT-Creation-Date: 2020-01-04 00:20+0100\n"
+"POT-Creation-Date: 2020-01-04 18:19+0100\n"
 "PO-Revision-Date: 2020-01-04 00:22+0100\n"
 "Last-Translator: Federico Bruni <fede@inventati.org>\n"
 "Language-Team: Italian <>\n"
@@ -20,6 +20,174 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 3.34.0\n"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:6
+#, fuzzy
+msgid "Frescobaldi"
+msgstr "Impossibile eseguire Frescobaldi"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:7
+#, fuzzy
+msgid "LilyPond Music Editor"
+msgstr "Editor musicale per LilyPond"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:10
+msgid ""
+"Frescobaldi is an advanced text editor to edit LilyPond sheet music files. "
+"It aims to be powerful, yet lightweight and easy to use."
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:14
+#, fuzzy
+msgid "Features:"
+msgstr "Tonalità:"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:16
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:50
+msgid "Powerful text editor with syntax highlighting and automatic completion"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:17
+msgid "Music view with advanced Point &amp; Click"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:18
+msgid "Midi player to proof-listen LilyPond-generated MIDI files"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:19
+msgid "Midi capturing to enter music"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:20
+msgid "Powerful Score Wizard to quickly setup a music score"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:21
+msgid "Snippet Manager to store and apply text snippets, templates or scripts"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:22
+msgid ""
+"Use multiple versions of LilyPond, automatically selects the correct version"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:23
+msgid "Built-in LilyPond documentation browser and built-in User Guide"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:24
+msgid ""
+"Smart layout-control functions like coloring specific objects in the PDF"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:25
+msgid "MusicXML, Midi and ABC import"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:26
+msgid ""
+"Modern user interface with configurable colors, fonts and keyboard shortcuts"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:27
+msgid ""
+"Translated into the following languages: Dutch, English, French, German, "
+"Italian, Czech, Russian, Spanish, Galician, Turkish, Polish, Brazillian "
+"Portugese and Ukrainian."
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:29
+msgid ""
+"Frescobaldi is designed to run on all major operating systems (Linux, Mac OS "
+"X and MS Windows). It is named after Girolamo Frescobaldi (1583-1643), an "
+"Italian composer of keyboard music in the late Renaissance and early Baroque "
+"period."
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:38
+msgid "Text editor and music view with two-way Point &amp; Click"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:42
+msgid "Change the input without leaving the music view"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:46
+msgid "Zoom with the magnifier glass"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:54
+#, fuzzy
+msgid "Snippet manager and editor"
+msgstr "Errore del frammento"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:58
+msgid "Score Wizard to quickly setup a music score"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:72
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:89
+msgid "Requirement changes:"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:74
+msgid "Frescobaldi now requires Python3.3+"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:76
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:93
+#, fuzzy
+msgid "New features:"
+msgstr "Nuovo nome:"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:78
+msgid ""
+"New \"Document Fonts\" dialog supporting text and music fonts and providing "
+"a font sample previewer"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:79
+msgid "Possibility to load external extensions"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:80
+msgid "New \"First System Only\" option in Custom Engrave"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:81
+#, fuzzy
+msgid "Goto Line command"
+msgstr "Altri comandi:"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:82
+#, fuzzy
+msgid "Rename file command"
+msgstr "Esegui comando esterno"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:91
+msgid "Frescobaldi now requires Python3.2+, Qt5, PyQt5, python-poppler-qt5"
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:95
+msgid "Zoom with pinch gesture in Music View, contributed by David Rydh."
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:96
+msgid ""
+"An option (enabled by default) to move the cursor to the end of the line "
+"when PageDown is pressed on the last line, and to move the cursor to the "
+"start of the first line if PageUp is pressed on the first line."
+msgstr ""
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:98
+#, fuzzy
+msgid "Improvements:"
+msgstr "Togli i &commenti"
+
+#: data/org.frescobaldi.Frescobaldi.metainfo.xml:100
+msgid "Retina display support in Music View, contributed by David Rydh"
+msgstr ""
 
 #: frescobaldi_app/about.py:49
 #, python-brace-format
