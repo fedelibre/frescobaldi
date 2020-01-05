@@ -9,6 +9,7 @@ python = import('python')
 
 # Python modules
 py_modules = [
+    'cups',
     'ly',
     'popplerqt5',
     'portmidi',
