@@ -67,6 +67,16 @@
   <translation type="gettext">frescobaldi</translation>
 
   <releases>
+    <release version="3.1.1" date="2020-01-04">
+      <description>
+        <p>Bugfixes:</p>
+        <ul>
+          <li>Fixed #1242, AttributeError: 'PopplerDocument' has no attribute 'ispresent'.</li>
+          <li>Fixed #1234, NameError: 'QPinchGesture' is not defined (pinch in music view).</li>
+          <li>Fixed #1231, NameError: 'doc' is not defined (when printing on Mac OSX).</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.1.0" date="2019-12-27">
       <description>
         <p>Requirement changes:</p>
@@ -75,12 +85,42 @@
         </ul>
         <p>New features:</p>
         <ul>
-          <li>New "Document Fonts" dialog supporting text and music fonts and providing a font sample previewer</li>
-          <li>Possibility to load external extensions</li>
-          <li>New "First System Only" option in Custom Engrave</li>
-          <li>Goto Line command</li>
-          <li>Rename file command</li>
-          <!--TO BE COMPLETED-->
+          <li>New "Document Fonts" dialog supporting text and music fonts and providing a font sample previewer.</li>
+          <li>Possibility to load external extensions.</li>
+          <li>New "First System Only" option in Custom Engrave.</li>
+          <li>Goto Line command.</li>
+          <li>Rename file command.</li>
+          <li>Music View: copy to Image can copy/export to SVG, PDF and EPS in addtion to PNG/JPG.</li>
+          <li>Music View: new toolbar button to show/hide the magnifier.</li>
+          <li>Music View: new preference Horizontal/Vertical.</li>
+          <li>Music View: new preference Continuous / non-continuous (displays only current page(s)).</li>
+          <li>Music View: new commands to rotate left/right.</li>
+          <li>Music View: new raster layout mode (displays as many pages as fit in a View).</li>
+          <li>Music View: view settings are remembered per-document.</li>
+          <li>Manuscript viewer: toolbar buttons to rotate the pages left/right.</li>
+          <li>Manuscript viewer: new toolbar button to show/hide the magnifier.</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fixed #895 seeking in MIDI player during playing stops sound.</li>
+          <li>Fixed #768, now paper orientation is properly handled in New Score Wizard.</li>
+          <li>Fixed #705, discrepancy of LilyPond vs. system version of GhostScript
+    on Linux.</li>
+          <li>Fixed #1094, includepaths on Windows.</li>
+          <li>Fixed #1121, NameError: name 'widgets' is not defined.</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Score Wizard: Titles and Headers are shown in preview (#1216).</li>
+          <li>Score Wizard: checkbox to write/omit pitches after \relative command.</li>
+          <li>Score Wizard: allow "none" for instrument names on first system (#1141).</li>
+          <li>Smarter behaviour of the autocompletion popup (#918, #922).</li>
+          <li>New command File->Rename/Move... (#980).</li>
+          <li>Sessions can be grouped in the Sessions menu.</li>
+          <li>Show absolute path of include files in tooltip (#941).</li>
+          <li>Restructure Tools Menu (#1080).</li>
+          <li>File Open toolbar button shows recent files menu on long click.</li>
+          <li>Added "Blank Sheet Music" template snippet (#1139).</li>
         </ul>
       </description>
     </release>
@@ -88,7 +128,7 @@
       <description>
         <p>Requirement changes:</p>
         <ul>
-          <li>Frescobaldi now requires Python3.2+, Qt5, PyQt5, python-poppler-qt5</li>
+          <li>Frescobaldi now requires Python3.2+, Qt5, PyQt5, python-poppler-qt5.</li>
         </ul>
         <p>New features:</p>
         <ul>
@@ -97,7 +137,7 @@
         </ul>
         <p>Improvements:</p>
         <ul>
-          <li>Retina display support in Music View, contributed by David Rydh</li>
+          <li>Retina display support in Music View, contributed by David Rydh.</li>
         </ul>
       </description>
     </release>
