@@ -12,7 +12,7 @@ py_modules = [
     'cups',
     'ly',
     'popplerqt5',
-    'portmidi',
+    'pyportmidi',
     'PyQt5.QtCore',
     'PyQt5.QtGui',
     'PyQt5.QtNetwork',
