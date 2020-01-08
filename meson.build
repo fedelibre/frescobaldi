@@ -34,3 +34,17 @@ dependency('poppler-qt5')
 APPLICATION_ID = 'org.frescobaldi.Frescobaldi'
 
 subdir('po')
+
+# Copy the app in the python path.
+install_subdir(
+    'frescobaldi_app',
+    install_dir: pyinst.get_install_dir()
+)
+
+# Install the executable in bindir.
+configure_file(
+    input: 'frescobaldi',
+    output: 'frescobaldi',
+    copy: true,
+    install_dir: get_option('bindir')
+)
