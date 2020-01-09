@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 
-data/org.frescobaldi.Frescobaldi.desktop.in
+data/org.frescobaldi.Frescobaldi.desktop
 data/org.frescobaldi.Frescobaldi.metainfo.xml
 
 # This list was first created with the command `git ls-files '*.py'`.
