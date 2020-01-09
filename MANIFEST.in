@@ -1,5 +1,5 @@
 include README* COPYING THANKS INSTALL TODO ChangeLog
-include frescobaldi.desktop
+include data/*
 include frescobaldi.1
 include frescobaldi.png
 include *.py
