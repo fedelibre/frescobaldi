@@ -1,4 +1,5 @@
 i18n.gettext(meson.project_name(),
+  install_dir: join_paths(pypadir, 'frescobaldi_app', 'i18n'),
   args: [
     '--from-code=UTF-8',
     '--package-name=Frescobaldi',

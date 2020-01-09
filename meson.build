@@ -30,15 +30,18 @@ pyinst = python.find_installation('python3', modules : py_modules)
 # Dependencies found by pkgconfig
 dependency('poppler-qt5')
 
+# Python package directory
+pypadir = pyinst.get_install_dir()
+
 # Variables
 APPLICATION_ID = 'org.frescobaldi.Frescobaldi'
 
 subdir('po')
 
-# Copy the app in the python path.
+# Copy the app in the python package directory.
 install_subdir(
     'frescobaldi_app',
-    install_dir: pyinst.get_install_dir()
+    install_dir: pypadir
 )
 
 # Install the executable in bindir.
