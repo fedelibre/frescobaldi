@@ -74,7 +74,7 @@ class About(QWidget):
 
         size = QSize(100, 100)
         pic = QLabel()
-        pic.setPixmap(icons.get("frescobaldi").pixmap(size))
+        pic.setPixmap(icons.get("org.frescobaldi.Frescobaldi").pixmap(size))
         pic.setFixedSize(size)
         layout.addWidget(pic, 0, Qt.AlignHCenter)
 
