@@ -258,10 +258,11 @@ music_glyphs = listmodel.ListModel(ly.data.music_glyphs())
 
 midi_instruments = listmodel.ListModel(ly.words.midi_instruments)
 
+string_tunings = listmodel.ListModel(ly.words.string_tunings)
+
 language_names = listmodel.ListModel(sorted(ly.pitch.pitchInfo))
 
 def font_names():
     model = listmodel.ListModel(sorted(QFontDatabase().families()))
     model.setRoleFunction(Qt.FontRole, QFont)
     return model
-
