@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [ "Windows", "macOS"]
+        target: ["Windows", "macOS"]
         include:
           - target: "Windows"
             output-format: "app"
@@ -43,10 +43,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Briefcase
+      - name: Install Windows dependencies
+        if: matrix.os == 'windows-latest'
         run: |
-          python -m pip install -U pip setuptools wheel
-          python -m pip install briefcase
+          Install-Package Gettext.Tools -Force -Verbosity detailed;
+          echo $env:PATH;
+          Get-Item Env:PATH
+
+      - name: Install macOS dependencies
+        if: matrix.os == 'macos-latest'
+        run: |
+          brew install gettext
+
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install briefcase tox
+
+      - name: Build Frescobaldi translation (mo) files
+        run: |
+          tox -e mo-generate
 
       - name: Build Frescobaldi
         run: |
