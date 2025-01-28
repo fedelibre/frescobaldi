@@ -13,9 +13,10 @@ concurrency:
 env:
   FORCE_COLOR: "1"
 
-defaults:
-  run:
-    shell: bash
+# We need PowerShell commands in Windows
+#defaults:
+#  run:
+#    shell: bash
 
 jobs:
   ci:
@@ -46,6 +47,7 @@ jobs:
       - name: Install Windows dependencies
         if: matrix.os == 'windows-latest'
         run: |
+          iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
           scoop bucket add main
           scoop install main/gettext
 
