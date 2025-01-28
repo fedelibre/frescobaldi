@@ -46,9 +46,8 @@ jobs:
       - name: Install Windows dependencies
         if: matrix.os == 'windows-latest'
         run: |
-          Install-Package Gettext.Tools -Force -Verbosity detailed;
-          echo $env:PATH;
-          Get-Item Env:PATH
+          scoop bucket add main
+          scoop install main/gettext
 
       - name: Install macOS dependencies
         if: matrix.os == 'macos-latest'
