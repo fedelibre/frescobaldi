@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: ["Windows", "macOS"]
+        target: ["Windows"] #, "macOS"]
         include:
           - target: "Windows"
             output-format: "app"
@@ -50,6 +50,8 @@ jobs:
           iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
           scoop bucket add main
           scoop install main/gettext
+          msgfmt --version
+        shell: pwsh
 
       - name: Install macOS dependencies
         if: matrix.os == 'macos-latest'
