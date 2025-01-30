@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: ["Windows"] #, "macOS"]
+        target: ["Windows", "macOS"]
         include:
           - target: "Windows"
             output-format: "app"
@@ -44,8 +44,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Windows dependencies
-        if: matrix.os == 'windows-latest'
+      - if: matrix.os == 'windows-latest'
+        name: Install Windows dependencies
         run: |
           iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
           scoop bucket add main
@@ -53,8 +53,8 @@ jobs:
           msgfmt --version
         shell: pwsh
 
-      - name: Install macOS dependencies
-        if: matrix.os == 'macos-latest'
+      - if: matrix.os == 'macos-latest'
+        name: Install macOS dependencies
         run: |
           brew install gettext
 
