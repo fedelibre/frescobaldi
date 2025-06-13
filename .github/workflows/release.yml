@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: |
-          sudo apt update && sudo apt install -y gettext
+          sudo apt update && sudo apt install -y appstream desktop-file-utils gettext
           python -m pip install --upgrade pip wheel tox
       - name: Build tarball
         id: build_tarball
