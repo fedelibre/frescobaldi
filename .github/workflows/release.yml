@@ -17,7 +17,7 @@ defaults:
 jobs:
   tarball:
     # Tarball including .mo files plus the built .desktop and .metainfo.xml files
-    name: Make a tarball for Linux packagers
+    name: Tarball for Linux packagers
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,8 +26,10 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
-      - name: Install python dependencies
-        run: python -m pip install --upgrade pip wheel tox
+      - name: Install dependencies
+        run: |
+          sudo apt update && sudo apt install -y gettext
+          python -m pip install --upgrade pip wheel tox
       - name: Build tarball
         id: build_tarball
         run: |
@@ -46,7 +48,7 @@ jobs:
           tag: ${{ github.ref }}
 
   packages:
-    name: Make packages for Windows and macOS
+    name: Windows and macOS packages
     runs-on: ${{ matrix.runs-on }}
     strategy:
       fail-fast: false
