@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update && sudo apt install -y appstream desktop-file-utils gettext
-          python -m pip install --upgrade pip wheel tox
+          python -m pip install --upgrade pip build wheel tox
       - name: Build tarball
         id: build_tarball
         run: |
